@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -b 1 > $acrostictext | echo $acrostictext
+cut -b 1 >> $acrostictext | echo $acrostictext
