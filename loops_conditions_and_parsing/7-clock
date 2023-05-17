@@ -4,7 +4,7 @@ i=0
 while [ $i -lt 13 ]
 do
 	echo "Hour:" $i
-	x=0
+	x=1
 	while [ $x -lt 60 ]
 	do
 		echo $x
