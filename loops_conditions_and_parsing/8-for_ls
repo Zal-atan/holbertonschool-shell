@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Trying to read file names only
+
+for file in *
+do
+	echo "$file" | cut -d '-' -f 2-
+done
