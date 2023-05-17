@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#This code represents a clock with while loops
 i=0
 while [ $i -lt 13 ]
 do
