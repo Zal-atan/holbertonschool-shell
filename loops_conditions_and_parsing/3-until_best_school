@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This is a while loop to write Best School 10 times
+i=1
+until [ $i -ge 11 ]
+do
+	echo "Best School"
+	i=$((i +1))
+done
