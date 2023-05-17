@@ -8,6 +8,7 @@ do
 	while [ $x -lt 60 ]
 	do
 		echo $x
+		x=$((x+1))
 	done
 
 	i=$((i+1))
